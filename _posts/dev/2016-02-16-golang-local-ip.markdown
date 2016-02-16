@@ -5,6 +5,8 @@ date: 2016-02-16 12:55:53  +0800
 categories: Dev
 ---
 
+==
+
 {% highlight golang %}
 
 func GetLocalAddressByName(name string) (string, error) {
