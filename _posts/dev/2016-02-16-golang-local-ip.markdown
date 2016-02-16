@@ -17,10 +17,8 @@ func GetLocalAddressByName(name string) (string, error) {
 	for _, inter := range interfaces {
 
 		if strings.HasPrefix(inter.Name, name) {
-			{% raw %}
-			fmt.Printf("found network card : %s \n", inter.Name)
-{% endraw %}
-			addrs, _ := inter.Addrs()
+
+ 			addrs, _ := inter.Addrs()
 
 			for _, value := range addrs {
 				ips := strings.Split(value.String(), "/")
