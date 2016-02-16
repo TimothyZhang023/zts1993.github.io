@@ -1,27 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Timothy's Blog 
 email: timothy-blog@zts1993.com
 description: > # this means to ignore newlines until "baseurl:"
   I am good at installation and uninstallation Ai, Fw, Fl, Br, Ae, Pr, Id, Ps and other software , proficient in CSS, JavaScript, PHP, ASP, C, C ++, C #, Java, Ruby, Perl, Lisp, python, Objective -C, ActionScript, Pascal, spss, sas, ruby ​​and other spelling familiar with Windows, Linux, Mac, Android, IOS, WP8 switch machine systems
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.zts1993.com" # the base hostname & protocol for your site
-twitter_username: zts1993
-github_username:  zts1993
-
+url: http://b.zts1993.com
+rss_url: /pages/atom.xml
 timezone: Asia/Shanghai
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:year/:month/:day/:title.html
+
+kramdown:
+  input: GFM
 
 # Outputting
 permalink: date
 paginate_path: /page:num
 timezone: Asia/Shanghai
+
+
+disqus:
+  shortname: timothy-zhang
+
+
+baidu:
+  id: 8a742c8021b1298467ba1c76ffc40743
+
+
+avatar: http://en.gravatar.com/userimage/34915036/8f2c452d5b8a8e26578a9dd1445fbfd0?size=200
+favicon: http://en.gravatar.com/userimage/34915036/8f2c452d5b8a8e26578a9dd1445fbfd0?size=200
