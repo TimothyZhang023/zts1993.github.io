@@ -47,6 +47,13 @@ a {
   -o-transition: color .35s;
   transition: color .35s; }
 
+hr {
+  2px solid rgba(229, 232, 236, 0.5);
+}
+
+
+
+
 /*---------------------------------*\
    Sidebar => Tags & Posts List
 \*---------------------------------*/
@@ -398,6 +405,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding-top: 1.1em;
   font-size: 2em; }
+
+
+#post__subtitle {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  font-size: .8em;
+  color: #697171;
+  text-align: left;
+  border-top: 2px solid rgba(229, 232, 236, 0.5); 
+}
 
 #post__content > p, #post__content > ul, #post__content > ol {
   margin-top: 1.5em;

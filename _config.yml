@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://b.zts1993.com
 rss_url: /pages/atom.xml
 timezone: Asia/Shanghai
+author : "Timothy Zhang"
 
 # Build settings
 markdown: kramdown
