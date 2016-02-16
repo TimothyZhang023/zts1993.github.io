@@ -3,14 +3,21 @@
     <a href="/" id="avatar" style="background-image:url({{ site.avatar }})"></a>
 
     <ul id="tags__ul">
-      <li id="pl__all" class="tags__li tags-btn active">全部</li>
+      <li id="pl__all" class="tags__li tags-btn active">All</li>
       {% for category in site.categories %} 
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
       {% endfor %}
     </ul>
 
+    <div id="tags__fixed">
+<!--            <a class="tags-btn fontello" href="/about" >About</a> 
+ -->          <a class="tags-btn fontello" href="/about" >About</a> 
+
+     </div>
+
+
     <div id="tags__bottom">
-      <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello"></a>
+      <a href="mailto:{{ site.email }}" id="icon-email" class="tags-btn fontello"></a>
       <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
     </div>
   </nav> <!-- end #tags -->

@@ -8,6 +8,7 @@ url: http://b.zts1993.com
 rss_url: /pages/atom.xml
 timezone: Asia/Shanghai
 author : "Timothy Zhang"
+email : "blog@zts1993.com"
 
 # Build settings
 markdown: kramdown
