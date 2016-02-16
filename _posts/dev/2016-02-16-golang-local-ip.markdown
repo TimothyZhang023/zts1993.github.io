@@ -5,6 +5,8 @@ date: 2016-02-16 12:55:53  +0800
 categories: Dev
 ---
 
+根据网卡名称来，主要是针对Linux，Windows下可以修改网卡名称~
+
 {% highlight golang %}
 
 func GetLocalAddressByName(name string) (string, error) {
@@ -74,4 +76,3 @@ func GetLocalAddress() string {
 {% endhighlight %}
 
 
-根据网卡名称来，主要是针对Linux，Windows下可以修改网卡名称~
