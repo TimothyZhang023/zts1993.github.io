@@ -6,7 +6,7 @@ categories: 碎片
 ---
 This is the first post using Jekyll, it is time to leaving WordPress, because i don't wanna install lnmp on my VPS anymore, and credit in my DigitalOcean account is going to exhausted. 
 
-This post is written not using zhongwen, because Sublime Text........ = =。。修好了，方案看 [这里](/tech/2016/02/16/fix-ST3.html) 
+This post is written not using zhongwen, because Sublime Text........ = =。。修好了，方案看 [这里](/记录/2016/02/16/fix-ST3.html) 
 
 
 {% highlight python %}
