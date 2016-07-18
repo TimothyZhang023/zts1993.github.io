@@ -2,7 +2,7 @@
 layout: post
 title: wp-o-matic-for-SAE
 date: 2016-02-18 13:03:39  +0800
-categories: 发布
+categories: Dev
 ---
 
 wp-o-matic SAE移植版 支持远程图片保存。  

@@ -2,13 +2,12 @@
 title: Redis CmakeList
 layout: post
 date: 2016-03-03 14:38:33  +0800
-categories: Dev
+categories: Redis
 ---
 
 具体路径自己调整～～
-
-具体内容如下
-
+Redis版本 3.0.4
+ 
 {% highlight shell %}
 
 cmake_minimum_required(VERSION 3.0)
