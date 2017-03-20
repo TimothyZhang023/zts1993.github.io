@@ -4,7 +4,7 @@ email: timothy-blog@zts1993.com
 description: > # this means to ignore newlines until "baseurl:"
   I am good at installation and uninstallation Ai, Fw, Fl, Br, Ae, Pr, Id, Ps and other software , proficient in CSS, JavaScript, PHP, ASP, C, C ++, C #, Java, Ruby, Perl, Lisp, python, Objective -C, ActionScript, Pascal, spss, sas, ruby ​​and other spelling familiar with Windows, Linux, Mac, Android, IOS, WP8 switch machine systems
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://blog.zts1993.com
+url: http://zts1993.github.io/
 rss_url: /pages/atom.xml
 timezone: Asia/Shanghai
 author : "Timothy Zhang"
